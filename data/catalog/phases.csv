@@ -1,0 +1,21 @@
+phase_code,name,purpose,icon,color,module_count
+P0,Local AI Setup,Full local AI environment before writing agent code,💻,mc-0,6
+P1,AI Foundations,"LLMs, transformers, embeddings, ML paradigms",🧠,mc-1,8
+P2,Prompt Engineering,The primary interface to models,✍️,mc-2,7
+P3,LLMs & APIs,"Providers, auth, tools, multimodal",🔌,mc-3,8
+P4,Agent Fundamentals,"Architectures, planning, collaboration",🤖,mc-4,7
+P5,Tool Use & Integration,"Memory, APIs, files, search, browsing",🛠️,mc-5,8
+P6,Agent Frameworks,"LangChain, LangGraph, CrewAI, LlamaIndex…",⚡,mc-6,10
+P7,RAG & Knowledge,"Embeddings, chunking, vector DBs, hybrid search",📚,mc-7,7
+P8,MCP Protocol,Model Context Protocol depth,🔗,mc-5,8
+P9,A2A Protocol,Agent-to-agent communication,🌐,mc-8,5
+P10,Unified AI Systems,"Orchestration, identity, observability, 9-layer stack",🏗️,mc-7,7
+P11,Fine-Tuning,"LoRA, PEFT, data prep, evaluation",🎯,mc-9,5
+P12,Vibe Coding,AI-native development tools,💫,mc-10,8
+P13,Automation,"n8n, Make, Zapier, DAGs, guardrails",⚙️,mc-6,5
+P14,Production AI,"APIs, Docker, hosting, serverless",🚀,mc-11,7
+P15,Monitoring & Eval,"RAGAS, LangSmith, OpenTelemetry",📊,mc-4,6
+P16,Security & Governance,"Injection, secrets, RBAC, privacy",🔐,mc-7,6
+P17,Consultant Track,"Strategy, pricing, demos, 12 skills",💼,mc-2,6
+P18,Capstones,Three portfolio projects,🎓,mc-8,3
+P19,Certifications,Vendor credentials roadmap,🏆,mc-12,6

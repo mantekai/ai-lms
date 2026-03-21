@@ -1,0 +1,6 @@
+icon,title,org,diff,desc,tags,link
+🤗,Hugging Face smol-course,HuggingFace,Beginner → Intermediate,Small-model training curriculum; contribute notebooks and examples.,Python;PyTorch,https://github.com/huggingface/smol-course
+🔗,LangGraph,LangChain,Intermediate,"Stateful agents; fix docs, add tools, improve examples.",Python;TS,https://github.com/langchain-ai/langgraph
+🦙,Ollama,Ollama,Beginner-friendly,Local model runner; Modelfiles and docs welcome.,Go,https://github.com/ollama/ollama
+🔌,MCP Servers,Model Context Protocol,Intermediate → Advanced,Reference servers and patterns for tool exposure.,Python;TypeScript,https://github.com/modelcontextprotocol/servers
+🚀,Dify,Community,Intermediate,Open LLMOps UI; plugins and integrations.,Python;Vue,https://github.com/langgenius/dify

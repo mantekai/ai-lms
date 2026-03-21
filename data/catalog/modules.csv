@@ -1,0 +1,134 @@
+module_num,phase_code,title,tools,priority
+1,P0,Ollama Setup & Local Model Running,"Ollama, llama3, mistral",MUST DO
+2,P0,LM Studio — GUI for Local LLMs,"LM Studio, GGUF models",MUST DO
+3,P0,Open WebUI — Local ChatGPT Interface,"Open WebUI, Docker",MUST DO
+4,P0,vLLM — High-Performance Inference,"vLLM, CUDA, Python",OPTIONAL
+5,P0,LiteLLM Routing & Load Balancing,"LiteLLM, proxy server",MUST DO
+6,P0,"Free APIs: Groq, Gemini, Mistral, OpenRouter","Groq API, Gemini, OpenRouter",MUST DO
+7,P1,Top 40 AI Terms & Core Concepts,"Flashcards, terminology",MUST DO
+8,P1,How LLMs Work: Transformers & Tokenization,"Hugging Face, tiktoken",MUST DO
+9,P1,Embeddings & Vector Representations,"OpenAI Embeddings, SBERT",MUST DO
+10,P1,"Inference, Context Windows & Cost Optimisation","Token counters, model APIs",MUST DO
+11,P1,Quantization & Model Efficiency,"GGUF, GPTQ, bitsandbytes",OPTIONAL
+12,P1,GPU/TPU & Compute for AI,"CUDA, Colab, RunPod",OPTIONAL
+13,P1,"ML Paradigms: Supervised, Unsupervised, RL","scikit-learn, OpenAI Gym",MUST DO
+14,P1,Generative AI Pipeline (Input→Process→Output),"OpenAI API, LangChain",MUST DO
+15,P2,Prompt Engineering Fundamentals,"Claude, GPT-4, PromptPerfect",MUST DO
+16,P2,Chain-of-Thought (CoT) Prompting,"GPT-4o, Claude, Gemini",MUST DO
+17,P2,Context Management & Context Window,"LangChain Memory, Claude 200K",MUST DO
+18,P2,Multi-Agent & Goal-Oriented Prompts,"CrewAI, AutoGen",MUST DO
+19,P2,"Self-Critique, Retry Loops & Reflexion","LangGraph, custom Python",MUST DO
+20,P2,Task Planning Prompts & Role Prompting,"Claude, GPT-4, Perplexity",MUST DO
+21,P2,Prompt Chaining & Advanced Techniques,"LangChain, LangGraph, LCEL",MUST DO
+22,P3,"OpenAI API Deep Dive (GPT-4, GPT-4o)",openai Python SDK,MUST DO
+23,P3,Anthropic Claude API,anthropic Python SDK,MUST DO
+24,P3,Google Gemini API,google-generativeai,MUST DO
+25,P3,"Mistral & Open Source LLMs (LLaMA, DeepSeek)","Hugging Face, mistralai SDK",MUST DO
+26,P3,API Authentication & Rate Limiting,"API keys, backoff, tenacity",MUST DO
+27,P3,Toolformer / Function Calling,"OpenAI tools, Claude tool_use",MUST DO
+28,P3,Tool Invocation & Output Parsing,"Pydantic, json_schema, LangChain",MUST DO
+29,P3,Multimodal AI (Text + Image + Audio + Video),"GPT-4V, Gemini, Pika, ElevenLabs",MUST DO
+30,P4,What Are AI Agents? Autonomous vs Semi-Auto,"LangChain, custom Python",MUST DO
+31,P4,"Agent Architectures: ReAct, CAMEL, AutoGPT","LangChain ReAct, AutoGPT",MUST DO
+32,P4,Goal Decomposition & Task Planning Algorithms,"LangGraph, custom planners",MUST DO
+33,P4,Decision-Making Policies for Agents,"LangGraph, state machines",MUST DO
+34,P4,Action Planning Loops & Execution,"LangGraph, ReAct pattern",MUST DO
+35,P4,Self-Reflection / Feedback Loops,"Reflexion, LangGraph",MUST DO
+36,P4,Multi-Agent Collaboration Patterns,"CrewAI, AutoGen, LangGraph",MUST DO
+37,P5,Tool Use System Design,"OpenAI tools, LangChain tools",MUST DO
+38,P5,Memory Integration (Short/Long-Term/Episodic),"LangChain Memory, mem0",MUST DO
+39,P5,External API Calling from Agents,"requests, httpx, LangChain",MUST DO
+40,P5,File Reader/Writer Tools,"Python I/O, LangChain tools",MUST DO
+41,P5,Python Execution Tools (Code Interpreter),"E2B, Docker sandbox",MUST DO
+42,P5,Search & Retrieval Tools,"Tavily, SerpAPI, DuckDuckGo",MUST DO
+43,P5,Web Browsing Tools for Agents,"Playwright, Selenium, Firecrawl",MUST DO
+44,P5,AI Search Optimisation (AEO/GEO),"SearchAble, Outranking",OPTIONAL
+45,P6,LangChain Deep Dive,"LangChain, LCEL, chains",MUST DO
+46,P6,LangGraph — Stateful Agent Orchestration,"LangGraph, StateGraph",MUST DO
+47,P6,CrewAI — Multi-Agent Crews,"CrewAI, agents, tasks",MUST DO
+48,P6,AutoGen — Conversational Multi-Agent,"AutoGen, ConversableAgent",MUST DO
+49,P6,Flowise — Visual Agent Builder,"Flowise, Docker, UI flows",OPTIONAL
+50,P6,AgentOps — Agent Monitoring & Observability,"AgentOps, LangSmith",MUST DO
+51,P6,Haystack — NLP Pipeline Framework,"Haystack, pipelines",OPTIONAL
+52,P6,Semantic Kernel (Microsoft),"Semantic Kernel, C#/Python",OPTIONAL
+53,P6,LlamaIndex — Data Framework for LLMs,"LlamaIndex, VectorStore index",MUST DO
+54,P6,"LLM Management: W&B, Arize AI","Weights & Biases, Arize",OPTIONAL
+55,P7,RAG Architecture & Pipeline Design,"LangChain, LlamaIndex",MUST DO
+56,P7,Embedding Models & Semantic Search,"OpenAI, Cohere, SBERT",MUST DO
+57,P7,Document Chunking Strategies,"LangChain splitters, custom logic",MUST DO
+58,P7,Custom Data Loaders & Document Ingestion,"LangChain loaders, Unstructured",MUST DO
+59,P7,"Vector DBs: Pinecone, Weaviate, Chroma, FAISS","Pinecone, Weaviate, Chroma",MUST DO
+60,P7,Query Refinement & Hybrid Search,"BM25, dense retrieval, rerankers",MUST DO
+61,P7,Knowledge Graphs for AI,"Neo4j, NetworkX, graph RAG",OPTIONAL
+62,P8,MCP Architecture & Core Concepts,"MCP spec, Python",MUST DO
+63,P8,"MCP Host, Client & Server Design","mcp Python SDK, Claude Desktop",MUST DO
+64,P8,MCP Transport Layer & Communication,"stdio, HTTP SSE transport",MUST DO
+65,P8,Secure File Access & Sampling in MCP,MCP server Python,MUST DO
+66,P8,"MCP Resources, Prompts & Tools","MCP spec, tool definitions",MUST DO
+67,P8,Building a Custom MCP Server (Python),"mcp, fastapi, Python",MUST DO
+68,P8,"MCP Integrations: S3, Stripe, Databases","boto3, stripe, psycopg2 + MCP",MUST DO
+69,P8,Claude Desktop + MCP Full Setup,"Claude Desktop, mcp config",MUST DO
+70,P9,A2A Protocol Architecture,"A2A spec, Python",MUST DO
+71,P9,Agent Cards & Agent Identity,"A2A agent cards, JSON",MUST DO
+72,P9,Task Delegation & Result Artifacts,"A2A tasks, Python SDK",MUST DO
+73,P9,Multi-Agent Distributed Execution,"A2A, LangGraph, Docker",MUST DO
+74,P9,A2A vs MCP: When to Use Which,"Architecture diagrams, code",MUST DO
+75,P10,Orchestrator Design & Patterns,"LangGraph, custom Python",MUST DO
+76,P10,Memory Layer Architecture (3-Tier),"mem0, Redis, PostgreSQL",MUST DO
+77,P10,Identity & Agent Security Layer,"Teleport, cryptographic identity",MUST DO
+78,P10,"Observability: Logs, Traces, Metrics","LangSmith, OpenTelemetry",MUST DO
+79,P10,Guardrails & Output Safety Systems,"NeMo Guardrails, custom filters",MUST DO
+80,P10,The 9-Layer Agentic AI Infrastructure Stack,Architecture reference,MUST DO
+81,P10,RBAC & Securing AI Agents (Cryptographic ID),"RBAC, Teleport, policy engines",MUST DO
+82,P11,Fine-Tuning Fundamentals & When to Use It,"Hugging Face, OpenAI fine-tune",MUST DO
+83,P11,LoRA & QLoRA (Efficient Fine-Tuning),"PEFT, bitsandbytes, LoRA",MUST DO
+84,P11,PEFT: Parameter Efficient Fine-Tuning,"PEFT library, HF Transformers",MUST DO
+85,P11,Training Data Preparation & Curation,"datasets, Argilla, Label Studio",MUST DO
+86,P11,Domain Adaptation & Model Evaluation,"ROUGE, BERTScore, Eleuther LM Eval",OPTIONAL
+87,P12,Vibe Coding Philosophy & Toolchain,"Claude Code, Cursor, GitHub Copilot",MUST DO
+88,P12,"Claude Code: Setup, CLAUDE.md & Workflow","Claude Code CLI, CLAUDE.md",MUST DO
+89,P12,"Claude Code: Skills, Hooks & Memory System","Claude Code skills, hooks",MUST DO
+90,P12,Claude Code: 4-Layer Architecture,"CLAUDE.md, Skills, Hooks, Agents",MUST DO
+91,P12,Claude Code: Project Structure (Agentic Setup),agentic project scaffold,MUST DO
+92,P12,Cursor AI — AI-Native IDE,"Cursor, Cursor rules",MUST DO
+93,P12,GitHub Copilot for AI Development,"Copilot, VS Code, CLI",MUST DO
+94,P12,Lovable & Gamma (No-Code AI Builders),"Lovable, Gamma",OPTIONAL
+95,P13,n8n — Open Source Workflow Automation,"n8n, Docker, webhooks",MUST DO
+96,P13,Make.com (Integromat) — Visual Automation,"Make.com, modules, scenarios",MUST DO
+97,P13,Zapier — Enterprise Integration Automation,"Zapier, Zaps, triggers",MUST DO
+98,P13,DAG Management & Event-Based Triggers,"LangGraph, Airflow, n8n",MUST DO
+99,P13,Guardrails & Conditional Workflow Logic,"LangGraph conditionals, n8n",MUST DO
+100,P14,FastAPI — Production API for AI Systems,"FastAPI, Pydantic, uvicorn",MUST DO
+101,P14,Streamlit & Gradio — AI UIs,"Streamlit, Gradio",MUST DO
+102,P14,Serverless Functions for AI,"AWS Lambda, Vercel Edge, Modal",MUST DO
+103,P14,Docker for AI Systems,"Docker, docker-compose",MUST DO
+104,P14,Kubernetes for AI Scale,"Kubernetes, Helm, k8s",OPTIONAL
+105,P14,Vector DB Hosting & Management,"Pinecone cloud, Weaviate cloud",MUST DO
+106,P14,"Agent Hosting: Replit, Modal, Fly.io","Replit, Modal, Fly.io",MUST DO
+107,P15,Agent Evaluation Metrics & Benchmarks,"RAGAS, TruLens, custom evals",MUST DO
+108,P15,Human-in-the-Loop Feedback Systems,"LangSmith, Argilla",MUST DO
+109,P15,LangSmith — Tracing & Debugging LLM Apps,"LangSmith, LangChain",MUST DO
+110,P15,OpenTelemetry for AI Observability,"OpenTelemetry, Jaeger",MUST DO
+111,P15,Auto-Evaluation Loops,"LLM-as-judge, custom eval chains",MUST DO
+112,P15,Prometheus & Grafana for AI Metrics,"Prometheus, Grafana dashboards",OPTIONAL
+113,P16,Prompt Injection Detection & Protection,"Rebuff, custom guards, NeMo",MUST DO
+114,P16,API Key Management & Secret Rotation,"Vault, AWS Secrets Manager",MUST DO
+115,P16,User Authentication & RBAC,"Auth0, Clerk, FastAPI security",MUST DO
+116,P16,Output Filtering & Content Safety,"OpenAI moderation, custom filters",MUST DO
+117,P16,Red Team Testing for AI Systems,"PyRIT, garak, manual red-teaming",MUST DO
+118,P16,"Data Privacy, AI Alignment & Compliance","GDPR frameworks, AI Act basics",MUST DO
+119,P17,AI Strategy & Architecture Design,"Miro, architecture templates",MUST DO
+120,P17,The 12 AI Skills Matrix for 2026,"Skills framework, self-assessment",MUST DO
+121,P17,Cost Optimisation for AI Systems,"Token calculators, model comparisons",MUST DO
+122,P17,Enterprise AI Implementation Playbook,Consulting frameworks,MUST DO
+123,P17,AI Consultant Positioning & Pricing,"Deck templates, pricing models",MUST DO
+124,P17,Stakeholder Communication & Demos,"Streamlit, Gradio, Gamma",MUST DO
+125,P18,CAPSTONE 1: AI That Calls You,"LangGraph, Twilio, FastAPI",MUST DO
+126,P18,CAPSTONE 2: AI Payment Risk Analyst,"RAG, compliance logic, FastAPI",MUST DO
+127,P18,CAPSTONE 3: Local Perplexity Clone,"Ollama, SearXNG, Streamlit UI",MUST DO
+128,P19,Google Cloud — Generative AI Leader & Vertex AI,"Gen AI Leader, Gemini, Vertex AI Agent Builder",MUST DO
+129,P19,AWS Certified AI Practitioner & Gen AI on AWS,"AIF-C01, Bedrock, Agents, Skill Builder",MUST DO
+130,P19,NVIDIA Generative AI LLM Certifications,"NCA-GENL, NCP-GENL, RAG & deployment labs",MUST DO
+131,P19,Microsoft Azure AI Engineer (AI-102),"Azure OpenAI, AI Search, content filters, Entra patterns",MUST DO
+132,P19,IBM watsonx & Generative AI Engineering,"watsonx.ai, enterprise Gen AI, governance",OPTIONAL
+133,P19,"Hugging Face — LLM, Agents & Open Models","Transformers, agents course, Hub, fine-tuning",MUST DO

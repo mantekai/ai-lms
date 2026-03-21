@@ -1,0 +1,11 @@
+{
+  "c1": {
+    "build": "<div class=\"cap-section\"><h4>Deliverables</h4><div class=\"cb-text\"><ul>\n<li>Git repo with README and architecture diagram</li>\n<li>FastAPI webhook for voice callback</li>\n<li>2-minute demo recording</li>\n</ul></div></div>\n<div class=\"cap-section\"><h4>Starter commands</h4>\n<div class=\"code-block\"><button class=\"copy-code\" onclick=\"copyCode(this)\">Copy</button><pre>pip install fastapi uvicorn twilio langgraph redis\n<span class=\"cmt\"># Use env vars for Twilio credentials — never commit secrets</span></pre></div></div>"
+  },
+  "c2": {
+    "build": "<div class=\"cap-section\"><h4>Sample FastAPI shape</h4>\n<div class=\"code-block\"><button class=\"copy-code\" onclick=\"copyCode(this)\">Copy</button><pre><span class=\"kw\">from</span> fastapi <span class=\"kw\">import</span> FastAPI\napp = FastAPI()\n\n@app.post(<span class=\"str\">\"/risk_score\"</span>)\n<span class=\"kw\">def</span> <span class=\"fn\">risk_score</span>(txn: dict):\n    <span class=\"cmt\"># 1) retrieve rules  2) LLM structured output  3) return JSON</span>\n    <span class=\"kw\">return</span> {<span class=\"str\">\"score\"</span>: <span class=\"num\">0</span>, <span class=\"str\">\"citations\"</span>: [], <span class=\"str\">\"rationale\"</span>: <span class=\"str\">\"\"</span>}</pre></div></div>"
+  },
+  "c3": {
+    "build": "<div class=\"cap-section\"><h4>Docker Compose sketch</h4>\n<div class=\"code-block\"><button class=\"copy-code\" onclick=\"copyCode(this)\">Copy</button><pre><span class=\"cmt\"># services: searxng, ollama (or use host), streamlit app</span>\n<span class=\"cmt\"># Keep all endpoints on localhost for a safe default</span></pre></div></div>"
+  }
+}

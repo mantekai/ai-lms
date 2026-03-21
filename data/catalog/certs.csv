@@ -1,0 +1,36 @@
+id,provider,name,url,price,kind,studyPhases,note
+google_ml,Google Cloud,Generative AI Leader (+ PMLE depth),https://cloud.google.com/learn/certification/generative-ai-leader,paid,credential,"P2, P3, P6, P7, P14",Separate exams; PMLE → cloud.google.com/learn/certification/machine-learning-engineer
+google_skill_intro_genai,Google Cloud,Introduction to Generative AI (Skills Boost),https://www.cloudskillsboost.google/course_templates/536,free,learning,"P1, P2",Micro-course + optional skill badge
+google_skill_path_leader,Google Cloud,Generative AI Leader — prep path (Skills Boost),https://www.cloudskillsboost.google/paths/1951,free,learning,"P2, P3, P14",Aligns with GAL exam domains
+google_skill_path_dev,Google Cloud,Advanced: Generative AI for Developers (Skills Boost),https://www.cloudskillsboost.google/paths/183,free,learning,"P3, P6, P7",Technical path; labs may need GCP credits
+aws_ai,AWS,Certified AI Practitioner (AIF-C01),https://aws.amazon.com/certification/certified-ai-practitioner/,paid,credential,"P3, P4, P7, P14, P16",Official proctored exam
+aws_genai_hub,AWS,Learn About Generative AI (training hub),https://aws.amazon.com/training/learn-about/generative-ai/,free,learning,"P1, P3, P4",Curated digital courses & learning plans
+aws_lp_genai_dev,AWS,Generative AI Learning Plan for Developers (Skill Builder),https://skillbuilder.aws/learning-plan/5C9XQBTXBB/generative-ai-learning-plan-for-developers-includes-labs/EGATKJP13J,free,learning,"P3, P6, P7",Includes labs; free digital training
+aws_lp_ai_practitioner,AWS,AWS AI Practitioner Learning Plan (Skill Builder),https://skillbuilder.aws/learning-plan/G8ENMJ5QBE/aws-artificial-intelligence-practitioner-learning-plan/SU2A1EJM1A,free,learning,"P3, P4, P16",Prepares concepts used on AIF-C01
+aws_bedrock_build,AWS,Building Gen AI Apps with Amazon Bedrock (course),https://skillbuilder.aws/learn/TM4ZAXTGEZ/building-generative-ai-applications-using-amazon-bedrock/WM6Z6ZHU7K,free,learning,"P3, P6, P7",Bedrock APIs & patterns
+azure_ai,Microsoft,Azure AI Engineer (AI-102),https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/,paid,credential,"P3, P4, P6, P7, P14",Proctored certification exam
+azure_ai900,Microsoft,Azure AI Fundamentals (AI-900),https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/,mixed,credential,"P1, P3",Free Microsoft Learn prep; exam fee paid
+ms_ai900_prep,Microsoft,Get started with Azure AI Fundamentals (Learn path),https://learn.microsoft.com/en-us/training/paths/get-started-azure-ai-fundamentals/,free,learning,"P1, P3",Maps to AI-900 topics
+ms_browse_ai_paths,Microsoft,Browse AI & ML learning paths (Microsoft Learn),https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path&products=azure&subjects=artificial-intelligence,free,learning,P1–P16,Filter Azure + AI paths
+nvidia,NVIDIA,Generative AI LLM (NCA-GENL / NCP-GENL),https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/,paid,credential,"P0, P1, P4, P6, P7",Professional track → nvidia.com/.../generative-ai-llm-professional/
+nvidia_training,NVIDIA,NVIDIA Training & DLI course catalog,https://www.nvidia.com/en-us/training/,free,learning,"P0, P1, P11",Mix of free & paid workshops
+ibm,IBM,Generative AI Engineering (Coursera Professional Certificate),https://www.coursera.org/professional-certificates/ibm-generative-ai-engineering,paid,credential,"P2, P4, P6, P16",Subscription / Coursera fee
+ibm_skillsbuild_ai,IBM,SkillsBuild — free learning (search AI courses),https://skillsbuild.org/learners,free,learning,"P1, P2",Use catalog search for artificial intelligence topics
+hf,Hugging Face,"Learn hub — LLM, Agents, audio, CV",https://huggingface.co/learn,free,learning,"P1, P4, P6, P7, P11",Courses & certificates of completion
+hf_llm_course,Hugging Face,LLM Course (chapter 1),https://huggingface.co/learn/llm-course/chapter1/1,free,learning,"P1, P4, P7",Open models & transformers
+hf_agents_course,Hugging Face,Agents Course (introduction),https://huggingface.co/learn/agents-course/unit0/introduction,free,learning,"P4, P6",Tool use & agent loops
+databricks_genai,Databricks,Generative AI Fundamentals (accreditation),https://www.databricks.com/resources/learn/training/generative-ai-fundamentals,free,learning,"P1, P7",Short videos + knowledge test + digital badge
+kaggle_genai_5day,Kaggle,5-Day Intensive Generative AI (guide),https://www.kaggle.com/learn-guide/5-day-genai,free,learning,"P1, P2, P7",Partner content; self-paced
+kaggle_agents_5day,Kaggle,5-Day AI Agents Intensive (guide),https://www.kaggle.com/learn-guide/5-day-agents,free,learning,"P4, P6",Agent patterns & deployment topics
+kaggle_ai_ethics,Kaggle,Intro to AI Ethics (course),https://www.kaggle.com/learn/intro-to-ai-ethics,free,learning,"P2, P16",Responsible-AI foundations
+deeplearning_ai,DeepLearning.AI,"Short courses (LLM apps, agents, RAG, etc.)",https://www.deeplearning.ai/courses/,mixed,learning,"P2, P4, P6, P7",Often free to audit; certificate paid
+anthropic_courses_gh,Anthropic,Educational course materials (GitHub),https://github.com/anthropics/courses,free,learning,"P2, P3, P4",Prompting & Claude-related exercises; no vendor exam
+anthropic_docs,Anthropic,Claude API — documentation,https://docs.anthropic.com/,free,learning,"P3, P4, P16",Official API & safety docs
+openai_cookbook,OpenAI,OpenAI Cookbook (patterns & examples),https://cookbook.openai.com/,free,learning,"P3, P6, P7",No OpenAI exam; dev-focused
+openai_docs,OpenAI,OpenAI Platform documentation,https://platform.openai.com/docs,free,learning,"P3, P4",API reference & guides
+meta_blueprint,Meta,Blueprint — training catalog,https://www.facebookblueprint.com/student/catalog,free,learning,P14,Ads & marketing AI topics; not an LLM-dev cert
+oracle_ai_cert,Oracle,Oracle certification program (AI & data exams),https://education.oracle.com/oracle-certification-program,paid,credential,"P7, P14",Check catalog for current AI / OCI exams
+sap_ai_learning,SAP,SAP Learning Hub — search AI topics,https://learning.sap.com/,mixed,learning,"P14, P17",Enterprise AI courses; subscription varies
+snowflake_ai_learn,Snowflake,Snowflake Learning — AI & ML catalog,https://learn.snowflake.com/,mixed,learning,"P7, P14",Free & paid modules; filter for AI/ML
+mongo_db_ai,MongoDB,MongoDB University — AI & vector search topics,https://learn.mongodb.com/catalog,free,learning,P7,RAG-friendly data patterns
+fast_ai_practical,fast.ai,Practical Deep Learning for Coders,https://course.fast.ai/,free,learning,"P1, P11",Practical ML; complements LLM modules

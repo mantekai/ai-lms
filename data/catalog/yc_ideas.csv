@@ -1,0 +1,6 @@
+title,problem,solution,stack,market,mvp
+AI policy copilot for regulated orgs,Teams drown in internal policy updates.,RAG over policy corpuses with citation-only answers.,"P7 RAG, P8 MCP, P14 FastAPI",Large governance / compliance software TAM (indicative billions class).,Upload PDFs → query API → Slack bot in 2 weeks.
+Meeting → action-item router,Action items die in notes after calls.,Transcript → structured tasks → Jira/Asana via agents.,"P4 Agents, P5 tools, P13 n8n",Productivity / collaboration segment.,Webhook + single integration + reviewer UI.
+Sales email personalizer (bounded),Generic outreach converts poorly.,Template-safe LLM that only fills approved slots from CRM fields.,"P2 prompting, P16 safety, P3 APIs",GTM tooling; crowded but always in demand.,CSV in → CSV out with moderation filter.
+Onboarding assistant for internal wikis,New hires cannot find canonical docs.,Agent answers from verified sources with links.,"P7 RAG, P10 unified stack, P14 hosting",Enterprise internal tools.,Single Confluence space + chat UI.
+Agent observability starter pack,No tracing for ad-hoc LLM scripts.,Drop-in OpenTelemetry + LangSmith-style dashboard template.,"P15 monitoring, P10 observability layer",Developer tooling for AI teams.,One FastAPI service with exemplar traces.
