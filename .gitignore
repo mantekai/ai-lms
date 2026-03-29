@@ -208,3 +208,6 @@ __marimo__/
 
 # macOS
 .DS_Store
+
+# Manish.AI: local exports and large media; not source for the repo.
+artifacts/
